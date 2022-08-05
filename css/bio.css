@@ -10,7 +10,7 @@ main {
   height: 412px;
   margin: 75px 50px;
   /* border: 1px solid #f1f1f1; */
-  perspective: 1000px; 
+  perspective: 1000px;  
   /* Remove this if you don't want the 3D effect */
 }
 
@@ -21,7 +21,7 @@ main {
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
-  transform-style: preserve-3d;
+  transform-style: preserve-3d; 
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */

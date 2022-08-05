@@ -23,13 +23,14 @@ let userResponse;
 // let userName;
 let questionSeven;
 
-preventResultsIfStoreage();
 
-function preventResultsIfStoreage(){
+preventResultsIfStorage();
+
+function preventResultsIfStorage(){
   if (localStorage.getItem('stringEmotionKey')){
     let navBarFix = document.getElementById('unique');
     let navBarAElem = document.createElement('a');
-    navBarAElem.setAttribute('href', '/results.html');
+    navBarAElem.setAttribute('href', './results.html');
     navBarAElem.innerHTML = 'Mood Playlists';
     navBarFix.appendChild(navBarAElem);
 
@@ -41,7 +42,7 @@ function preventResultsIfStoreage(){
   }
 }
 
-console.log(stringEmotionRecall);
+
 // Submit form for use on Results.HTML and stored data of user Score
 function handleSubmit(event){
   event.preventDefault();
