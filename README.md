@@ -2,7 +2,7 @@
 
 ## Created by:
 
--Sue Young
+- Sue Young
 - Tim Traylor
 - Keelen Fisher
 - Brandon Pitts
