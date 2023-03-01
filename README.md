@@ -2,8 +2,8 @@
 
 ## Created by:
 
-- Sue Young
 - Tim Traylor
+- Sue Young
 - Keelen Fisher
 - Brandon Pitts
 
