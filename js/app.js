@@ -78,9 +78,9 @@ function handleSubmit2(event){
   if ( localStorage.getItem('stringEmotionKey')){
     event.preventDefault();
 
-    let songListHisotry = document.createElement('p');
-    songListHisotry.textContent = 'Song list from last time you were here:';
-    myHistory.appendChild(songListHisotry);
+    let songListHistory = document.createElement('p');
+    songListHistory.textContent = 'Song list from last time you were here:';
+    myHistory.appendChild(songListHistory);
 
     let mySongArticleUL = document.createElement('ul');
     myHistory.appendChild(mySongArticleUL);
