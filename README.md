@@ -9,6 +9,8 @@
 
 ## Basic Information
 
-Creates M a Generator for streaming shows and music based on user emotions:
+Creates suggestions based on mood (via selecting options on form) which lists popular movies and music based on that emotion.
 
+### Languages and Tools
 
+- Javascript, HTML, CSS
